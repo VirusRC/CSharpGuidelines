@@ -36,7 +36,7 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: dist-without-markdown
+        name: CSharpCodingGuidelines
         path: Artifacts/**/*.htm
     
     # Runs a single command using the runners shell

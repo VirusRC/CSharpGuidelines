@@ -21,11 +21,23 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    - uses: ruby/setup-ruby@v1
+    
+    - name: Install Ruby
+      uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.4
-    - run: gem install bundler
-    - run: ./Build.bat
+    
+    - name: Install Bundler
+      run: gem install bundler
+      
+    - name: Execute build script
+      run: ./Build.bat
+      
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: dist-without-markdown
+        path: Artifacts/**/*.htm
     
     # Runs a single command using the runners shell
     #- name: Run a one-line script

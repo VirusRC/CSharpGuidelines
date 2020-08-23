@@ -46,7 +46,7 @@ p, blockquote, ul, ol, dl, table, pre {
 h1, h2, h3, h4, h5, h6 {
   font-family: Variable Bold, Calibri, Arial;
   margin: 20px 0 10px;
-  color: rgb(167, 21, 0);
+  color: rgb(32, 45, 79);
   padding: 0;
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
@@ -104,7 +104,7 @@ h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
 =============================================================================*/
 
 a {
-  color: #4183C4;
+  color: #f04e23;
   text-decoration: none;
 }
 

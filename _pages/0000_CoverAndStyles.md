@@ -16,7 +16,5 @@ for all C# versions up to 7.3
 </div>
 <br/>
 <div class="author">
-Dennis Doomen<br/>
-Version %semver%<br/>
-%commitdate%
+Copa-Data GmbH<br/>
 </div>

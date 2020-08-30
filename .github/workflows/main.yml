@@ -31,7 +31,7 @@ jobs:
       run: gem install bundler
       
     - name: Execute build script
-      run: ./Build.bat
+      run: sh ./Build.bat
     
     - name: Convert HTML to PDF
       uses: fifsky/html-to-pdf-action@v0.0.2
